@@ -17,7 +17,7 @@ int main(void)
 	 * message written to stdout
 	 */
 
-	write(2, message, len);
+	write(2, text, len);
 
 	return (1);
 }
