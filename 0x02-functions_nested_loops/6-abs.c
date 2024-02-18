@@ -4,25 +4,17 @@
  * _abs - prints the absolute value.
  * @i: int
  *
- * Return: 0
+ * Return: i or -i (Success)
  */
 
 int _abs(int i)
 {
-	int n = i;
-
-	if (n == 0)
+	if (i >= 0)
 	{
-		_putchar('0');
-	}
-	else if (n < 0)
-	{
-		n = -n;
-		_putchar(n);
+		return (i);
 	}
 	else
 	{
-		_putchar(n);
+		return (-i);
 	}
-	return (0);
 }
