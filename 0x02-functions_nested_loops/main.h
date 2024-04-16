@@ -9,8 +9,10 @@
  * _isalpha - check if char is uppercase.
  * print_sign - print the sign of a number.
  * _abs - primts the absolute value of a number.
+ * print_last_digit - print last digit.
  *
- * Return: int, void, int, void, int, int, int
+ * Return: int, void, int, void, int, int, int,
+ * 	int
  */
 
 int _islower(int c);
@@ -20,5 +22,6 @@ void print_alphabet(void);
 int _isalpha(int c);
 int print_sign(int n);
 int _abs(int);
+int print_last_digit(int);
 
 #endif /* MAIN_H */
